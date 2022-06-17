@@ -412,6 +412,23 @@ Floating-point value; read-only.
 
 ----
 
+.. _Layer.enable:
+
+Layer.enable
+*********************************************
+
+``app.project.item(index).layer(index).enable``
+
+**Description**
+
+The visibility (eyeball icon) of the layer.
+
+**Type**
+
+Boolean; read/write.
+
+----
+
 =======
 Methods
 =======
@@ -437,7 +454,7 @@ To return ``true``, the layer must be enabled, no other layer may be soloing unl
 
 **Returns**
 
-Boolean.
+String; read/write.
 
 ----
 
